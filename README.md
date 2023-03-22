@@ -4,6 +4,12 @@
 
 ## How to Deploy
 
+### Automatic
+
+* Click [here](https://vercel.com/new/clone?repository-url=https://github.com/acmcsufoss/hackpack_flask_vercel/)
+
+### Manual
+
 1. Use this template by clicking "Use this template" button above or [click here](https://github.com/acmcsufoss/hackpack_flask_vercel/generate)
 2. Deploy your new project to [Vercel](https://vercel.com/new)
 
