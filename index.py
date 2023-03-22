@@ -1,7 +1,7 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 
 # Our Flask app object
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
 @app.route('/')
@@ -12,7 +12,7 @@ def index():
     Return: The content we want to display to a user
     """
 
-    return 'index'
+    return render_template('index.html')
 
 
 @app.route('/<path:path>')
